@@ -12,14 +12,10 @@ int main() {
   cout << "filled vector: ";
   print(sample_vector);
   cout << endl;
-
-
-
   cout << "sum of vector's elements: " << compute_sum(sample_vector) << endl << endl;
   cout << endl << "   ..::  E N D   S A M P L E  C O D E  ::.." << endl << endl << endl;
-  cout << "  ..:: B E G I N  N E W  I T E R A T I O N  O F  S A M P L E  C O D E  ::.." << endl << endl;
-
-
+  
+  //Demonstration and Assignment code below
   vector<short> testing_vector;
   cout << "new vector: ";
   print(testing_vector);
@@ -31,6 +27,7 @@ int main() {
   print(testing_vector);
   cout << "sum of vector's elements: " << compute_sum(testing_vector) << endl;
   cout << endl << endl;
+  print(testing_vector);
   cout << "Print even: ";
   print_even(testing_vector);
   cout << endl;
@@ -42,8 +39,6 @@ int main() {
   cout << "Now sorting vector " << endl << "Current order of elements: " << endl;
   sort(testing_vector.begin(), testing_vector.end());
   print(testing_vector);
-
-  cout << endl << "   ..::  E N D   S A M P L E  C O D E  ::.." << endl << endl << endl;
   
   system("pause");
   return 0;
