@@ -1,6 +1,7 @@
 #include "VectorDriver.h"
 
 int main() {
+  /*******************************SAMPLE CODE PROVIDED******************************/
   cout << "  ..:: B E G I N  S A M P L E  C O D E  ::.." << endl << endl;
   vector<short> sample_vector(5);
   cout << "new vector: ";
@@ -14,20 +15,20 @@ int main() {
   cout << endl;
   cout << "sum of vector's elements: " << compute_sum(sample_vector) << endl << endl;
   cout << endl << "   ..::  E N D   S A M P L E  C O D E  ::.." << endl << endl << endl;
-  
-  //Demonstration and Assignment code below
+  /*******************************SAMPLE CODE END************************************/
+  //CODE FOR LAB BELOW
   vector<short> testing_vector;
   cout << "new vector: ";
-  print(testing_vector);
-  add_numbers(testing_vector);
+  print(testing_vector); //prints vector elements in order
+  add_numbers(testing_vector); // inserts 10 random numbers from 0 to 99 to the end of the vector
+  cout << endl << "added to testing_vector" << endl; //Output tells user new elements have been added to the vector
+  print(testing_vector); //prints vector once again to demonstrate elements have changed
+  add_numbers(testing_vector); //adds ten more random numbers
   cout << endl << "added to testing_vector" << endl;
-  print(testing_vector);
-  add_numbers(testing_vector);
-  cout << endl << "added to testing_vector" << endl;
-  print(testing_vector);
-  cout << "sum of vector's elements: " << compute_sum(testing_vector) << endl;
+  print(testing_vector); //prints for reference
+  cout << "sum of vector's elements: " << compute_sum(testing_vector) << endl; 
   cout << endl << endl;
-  print(testing_vector);
+  print(testing_vector); //For reference for print_even below
   cout << "Print even: ";
   print_even(testing_vector);
   cout << endl;
